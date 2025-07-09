@@ -26,7 +26,7 @@ Step by step guide for setting up a `docker-compose.yml` for running a `Sepolia`
 sudo apt-get update && sudo apt-get upgrade -y
 ```
 ```bash
-sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y
+sudo apt install curl iptables build-essential git wget liblz4-tool jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip -y
 ```
 **Docker:**
 ```bash
